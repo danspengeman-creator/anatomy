@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Babies vs adults | Osteology Explorer</title><meta name="description" content="Why newborns have more bony pieces than adults and when they fuse."><meta name="theme-color" content="#0b1525">
+<link rel="stylesheet" href="style.css"></head><body>
+<nav class="tabs"><div class="wrap"><a href="index.html">Explore</a><a href="growth.html" class="on">Babies vs adults</a><a href="fun.html">Fun facts</a><a href="about.html">Sources</a></div></nav>
+<header class="hero slim pagehead"><div class="wrap"><p class="eyebrow">Osteology Explorer</p><h1>Babies vs adults</h1></div></header><section id="growth"><div class="wrap">
+  <h2 style="display:none">Babies vs adults</h2>
+  <p class="lead">A newborn has roughly 270 to 300 separate bony pieces. An adult has 206. Nothing is lost: bones fuse together as we grow, and the cartilage that makes up much of a baby's skeleton gradually turns to bone. Drag the slider to watch it happen.</p>
+  <div class="ager">
+    <input type="range" id="age" min="0" max="8" step="1" value="0" aria-label="Age">
+    <div class="ticks" id="ticks"></div>
+    <h3 id="agetitle" style="margin-top:12px"></h3>
+    <ul id="agelist"></ul>
+  </div>
+  <div class="widgets" id="widgets"></div>
+  <div class="cols">
+    <div class="card"><h3>Why so many pieces at birth?</h3><p>Many adult bones start life as several separate parts. Each hip bone begins as three, the sacrum as five and the skull as a set of plates. Fusion over childhood and the teens joins them.</p></div>
+    <div class="card"><h3>Why cartilage?</h3><p>A skeleton that is partly cartilage is flexible enough for birth and can grow quickly. Bone replaces the cartilage in a set sequence, which is why a wrist X-ray can estimate a child's skeletal age.</p></div>
+    <div class="card"><h3>Why do counts differ?</h3><p>The figure depends on what you count as a bone: ossification centers, sesamoids and small variants all change the tally. Quoted newborn figures range from about 270 to over 300.</p></div>
+    <div class="card"><h3>Children break differently</h3><p>Children have a thick, active periosteum and open growth plates. Greenstick and buckle (torus) fractures are typical, and growth plate injuries are classified by Salter-Harris type.</p></div>
+  </div>
+  <h3>Where do the extra bones go?</h3>
+  <div class="tbl"><table>
+    <tr><th>Structure</th><th>In childhood</th><th>In an adult</th><th>Approximate timing</th></tr>
+    <tr><td>Sacrum</td><td>5 separate vertebrae</td><td>1 bone</td><td>Starts in the late teens, completes in the 20s</td></tr>
+    <tr><td>Coccyx</td><td>3 to 5 small segments</td><td>1 bone (often partly fused)</td><td>Gradual through adulthood</td></tr>
+    <tr><td>Each hip bone</td><td>Ilium + ischium + pubis</td><td>1 bone</td><td>About 14 to 16 years</td></tr>
+    <tr><td>Frontal bone</td><td>2 halves (metopic suture)</td><td>1 bone</td><td>Usually within the first year</td></tr>
+    <tr><td>Mandible</td><td>2 halves (symphysis)</td><td>1 bone</td><td>First year of life</td></tr>
+    <tr><td>Occipital bone</td><td>4 parts</td><td>1 bone</td><td>About 6 years</td></tr>
+    <tr><td>Sternal body</td><td>4 sternebrae</td><td>1 piece</td><td>Puberty to the mid 20s</td></tr>
+    <tr><td>Each vertebra</td><td>Body + 2 arches</td><td>1 bone</td><td>Early childhood</td></tr>
+    <tr><td>Long bones</td><td>Shaft + epiphyses</td><td>1 bone each</td><td>Mid to late teens (clavicle last, 20s)</td></tr>
+  </table></div>
+  <p class="legend" style="margin-top:8px">These rows show the logic of fusion rather than a strict tally. Timings are typical ranges and vary between individuals, sexes and sources.</p>
+</div></section>
+
+
+<script src="bones.js"></script></body></html>

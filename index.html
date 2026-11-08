@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Osteology Explorer | The Human Skeleton, Bone by Bone</title><meta name="description" content="An interactive guide to the 206 bones of the adult skeleton: where each bone lives, what it does, clinical pearls and how babies differ from adults."><meta name="theme-color" content="#0b1525">
+<link rel="stylesheet" href="style.css"></head><body>
+<nav class="tabs"><div class="wrap"><a href="index.html" class="on">Explore</a><a href="growth.html">Babies vs adults</a><a href="fun.html">Fun facts</a><a href="about.html">Sources</a></div></nav>
+<header class="hero slim"><div class="wrap">
+  <p class="eyebrow">Osteology Explorer</p>
+  <h1>The human skeleton, bone by bone</h1>
+  <p class="sub">Search for a bone or tap one on the diagram.</p>
+  <div class="searchbar"><input class="search" id="search" type="search" placeholder="Search a bone: kneecap, funny bone, tailbone..." aria-label="Search bones" autocomplete="off"><div class="sres" id="sres"></div></div>
+</div></header>
+<section id="explore" style="padding-top:8px"><div class="wrap">
+  <div class="explorer">
+    <div class="stage" id="stage">
+      <div class="viewtabs" id="viewtabs"></div>
+      <div class="toolbar"><button class="mini" id="peel">Peel back ribs</button><button class="mini" id="quizBtn">Quiz mode</button></div>
+      <svg id="svg" viewBox="0 0 400 1030" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Interactive skeleton diagram"></svg>
+      <div class="hovertag" id="hovertag">Tap a bone</div>
+    </div>
+    <div class="info" id="info"></div>
+  </div>
+  <div class="indexbox"><h3>All bones</h3><div class="filters" id="filters"></div><div class="list" id="list"></div></div>
+</div></section>
+<div class="mbar" id="mbar"><span id="mname"></span><button class="btn pri" id="mgo">Details</button></div>
+
+<script src="bones.js"></script></body></html>

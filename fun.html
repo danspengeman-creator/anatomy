@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fun facts and quiz | Osteology Explorer</title><meta name="description" content="Bone fun facts and a true or false quiz."><meta name="theme-color" content="#0b1525">
+<link rel="stylesheet" href="style.css"></head><body>
+<nav class="tabs"><div class="wrap"><a href="index.html">Explore</a><a href="growth.html">Babies vs adults</a><a href="fun.html" class="on">Fun facts</a><a href="about.html">Sources</a></div></nav>
+<header class="hero slim pagehead"><div class="wrap"><p class="eyebrow">Osteology Explorer</p><h1>Fun facts and quick quiz</h1></div></header><section id="fun"><div class="wrap">
+  
+  <div class="deck">
+    <div class="tag" id="facttag">Did you know?</div>
+    <p id="factText"></p>
+    <button class="btn pri" id="nextFact">Another fact</button>
+  </div>
+  <div class="tf">
+    <div class="tag" style="color:var(--hl2);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase">True or false <span id="tfScore" style="color:var(--mute)"></span></div>
+    <div class="q" id="tfQ"></div>
+    <div class="row" id="tfBtns"><button class="btn" data-a="1">True</button><button class="btn" data-a="0">False</button></div>
+    <div class="fb" id="tfFb"></div>
+    <div class="row"><button class="btn pri" id="tfNext" style="display:none">Next</button></div>
+  </div>
+</div></section>
+
+
+<script src="bones.js"></script></body></html>
